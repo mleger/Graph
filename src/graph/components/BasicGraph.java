@@ -104,9 +104,9 @@ public class BasicGraph<N extends Node, E extends Edge<? extends N>> implements 
     
     @Override
     public boolean addAllEdges(Set<? extends E> edges) {
-    	boolean success = true;
+        boolean success = true;
         for(E edge : edges){
-        	success = success && addEdge(edge);
+            success = success && addEdge(edge);
         }
         return success;
     }

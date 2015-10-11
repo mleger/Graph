@@ -15,13 +15,13 @@ import java.util.Set;
  */
 public final class AlgorithmUtilities {
 
-	/*
-	 * This class contains only static utility methods. Therefore the constructor is private
-	 * so that nobody can call it.
-	 */
-	private AlgorithmUtilities() {
-	}
-	
+    /*
+     * This class contains only static utility methods. Therefore the constructor is private
+     * so that nobody can call it.
+     */
+    private AlgorithmUtilities() {
+    }
+    
     /**
      * Creates a String that prints out each edge on a specific line. The String starts with a
      * container name, followed by "[" to indicate the start of the container. The String ends
@@ -61,7 +61,7 @@ public final class AlgorithmUtilities {
      * @return string of empty spaces of the specified length
      */
     private static String getEmptyStringOfLength(int length) {
-    	StringBuilder sb= new StringBuilder(length);
+        StringBuilder sb= new StringBuilder(length);
         for (int i = 0; i < length; i++){
             sb.append(' ');
         }

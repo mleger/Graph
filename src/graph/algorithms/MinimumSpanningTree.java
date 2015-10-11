@@ -88,7 +88,7 @@ public class MinimumSpanningTree<N extends Node, E extends WeightedEdge<N>> {
                 cotreeNodes.remove(nodeToAdd);
                 treeWeight += weightToAdd;
             } else {
-            	// This should never happen
+                // This should never happen
                 throw new IllegalStateException("No edge from cotree could be added to the tree");
             }
         }
